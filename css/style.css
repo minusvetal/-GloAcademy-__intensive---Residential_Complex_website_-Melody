@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+body,
+html {
+	font-family: "Bebas Neue", cursive, sans-serif;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.container {
+	max-width: 1300px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.header {
+	background-color: #635854;
+	border-bottom: 4px solid #3596f5;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img {
+	max-width: 120px;
+	min-height: 30px;
+	object-fit: contain;
+	padding-top: 8px;
+}
+.navbar-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #ffffff;
+}
+.navbar-menu__item {
+	padding: 9px 15px;
+	margin: 0 40px;
+	transition: all 0.4s ease-out;
+}
+
+.navbar-menu__item:hover {
+	background: #3596f5;
+}
+
+.navbar-contacts {
+	text-align: right;
+}
+.navbar-contacts__text {
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+.navbar-contacts__phone {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	color: #ffffff;
+}
