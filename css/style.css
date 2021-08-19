@@ -95,11 +95,14 @@ button {
 }
 
 .home-image path {
-	fill-opacity: 0;
+	opacity: 0;
 }
 .home-image path:hover {
-	fill-opacity: 0.75;
+	opacity: 0.75;
 	cursor: pointer;
+}
+path.current-floor {
+	opacity: 0.75;
 }
 .main-title {
 	font-family: "Bebas Neue", sans-serif;
